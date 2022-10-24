@@ -1,0 +1,39 @@
+{
+    "name": "ljswitchboard-modbus_map",
+    "version": "1.0.4",
+    "description": "Library that allows easy parsing of the LabJack modbus map",
+    "author": {
+        "name": "Chris Johnson",
+        "url": "https://labjack.com"
+    },
+    "main": "./lib/json_constants_parser",
+    "license": "MIT",
+    "keywords": [
+        "LabJack",
+        "LJMMM",
+        "MODBUS",
+        "T7",
+        "ljswitchboard"
+    ],
+    "homepage": "https://github.com/labjack/labjack_kipling/tree/master/ljswitchboard-modbus_map",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/labjack/labjack_kipling.git",
+        "directory": "ljswitchboard-modbus_map"
+    },
+    "files": [
+        "lib"
+    ],
+    "dependencies": {
+        "ljmmm-parse": "^0.2.5",
+        "ljswitchboard-ljm_driver_constants": "^1.0.5"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "diff": ">=3.5.0",
+        "mocha": "^8.2.1"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
+}
